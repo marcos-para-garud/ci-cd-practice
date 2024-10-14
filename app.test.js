@@ -8,4 +8,9 @@ expect(res.statusCode).toBe(200);
 });
 });
 
+afterAll(() => {
+    server.close();  // Close the server after tests
+  });
+  
+
 // new comment 1

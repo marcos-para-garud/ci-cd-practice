@@ -22,7 +22,7 @@ const app = require('./app'); // Assuming your Express app is in app.js
 let server;
 
 beforeAll(() => {
-  server = app.listen(3000);  // Start the server before tests
+  server = app.listen(3012);  // Start the server before tests
 });
 
 afterAll(() => {
